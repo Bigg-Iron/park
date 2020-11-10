@@ -9,7 +9,7 @@
             "request": "launch",
             "name": "Launch Chrome against localhost",
             "url": "file:///Users/lorenzor.bartolo/Desktop/park/index.html",
-            "webRoot": "${workspaceFolder}index.html"
+            "webRoot": "${workspaceFolder}"
         }
     ]
 }
