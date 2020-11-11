@@ -440,7 +440,7 @@ hr {
 }
 
 .indigo {
-  background: transparent;
+  background-color: rgb(255, 255, 255);
 }
 
 .menu-bg {
@@ -682,6 +682,23 @@ hr {
   overflow: hidden;
   position: relative;
   background: #f8f9fb;
+  width: 100%;
+  height: 500px;
+  background: url('https://images.unsplash.com/photo-1438109491414-7198515b166b?q=80&fm=jpg&s=cbdabf7a79c087a0b060670a6d79726c');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+  background-attachment: fixed;
+}
+
+#hero-area h5 {
+  color:white;
+  text-shadow:2px 2px #333;
+}
+
+
+.text-muted {
+  color: #def0ff!important;
 }
 
 #hero-area .contents {
@@ -693,7 +710,7 @@ hr {
 }
 
 #hero-area .contents .head-title {
-  color: #585b60;
+  color: rgb(255, 255, 255);
   font-size: 34px;
   line-height: 48px;
   font-weight: 700;
